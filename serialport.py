@@ -17,6 +17,10 @@ import time
 #
 # At construction the SerialPort starts listening for incoming data.  A custom
 # LoopbackHandler can be created and provided to handle incoming data.
+#
+# This you may note that this project uses little-endian byte order when reading
+# from the serial port.  This is due to its use with Arduino, which uses little
+# endian byte ordering.
 # --------------------------------------------------------------------------
 
 class SerialPort(object):
