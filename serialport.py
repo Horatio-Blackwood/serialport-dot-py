@@ -3,7 +3,7 @@
 # Created:  February 12, 2012
 # Updated:  March 25, 2013
 
-from projectconfig import SerialConfig
+from serialconfig import SerialConfig
 
 import serial
 import threading
