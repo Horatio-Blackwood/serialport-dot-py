@@ -1,7 +1,7 @@
 # Adam Anderson
 # Depends on:  Python 3.3, PySerial 2.6
 # Created:  February 12, 2012
-# Updated:  March 25, 2013
+# Updated:  March 31, 2013
 
 from serialconfig import SerialConfig
 
