@@ -33,13 +33,13 @@ class SerialPort(object):
         """
         # True if this SerialPort is listening to a loopback on the 
         # serial port.
-        self.__loopback = False
+        self.loopback = False
         
         # The handler for loopback data.
-        self.__loopbackHandler = None
+        self.loopbackHandler = None
         
         # True if the target device is ready to receive more bytes.
-        self.__targetDeviceReady = True
+        self.targetDeviceReady = True
         
         # Starts the listening thread.  This thread listens for 'ready'
         # messages from the target device and changes the value of
@@ -55,8 +55,8 @@ class SerialPort(object):
         self.__serialPort = serial.Serial(config.port, baudrate=config.baud)
         
         #ready and wait
-        self.__ready = config.readybyte
-        self.__wait = config.waitbyte
+        self.ready = config.readybyte
+        self.wait = config.waitbyte
 
 
     def sendBytes(self, bites):
