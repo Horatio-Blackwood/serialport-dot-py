@@ -86,7 +86,7 @@ class SerialPort(object):
         """ Enables loopback for debug purposes using the provided 
             LoopbackHandler.
             
-            Parameterss:
+            Parameters:
                 loopbackHandler     The handler for loopback data.  If not 
                                     specified, a DefaultLoopbackHandler is
                                     used which prints out the data to the 
