@@ -6,7 +6,7 @@
 # --------------------------------------------------------------------------
 # Whats a loopback handler?
 # --------------------------------------------------------------------------
-# Loopback handlers define and interface for how received bytes should be
+# Loopback handlers define an interface for how received bytes should be
 # handled.  Whenever a byte is received by a serial port, if loopback is
 # activated for the serial port, the loopback handler is called to 'handle'
 # the newly received byte.
