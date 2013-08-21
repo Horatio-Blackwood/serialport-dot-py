@@ -12,7 +12,7 @@ Some Sample Code
 
 from serialport import SerialPort<br>
 myPort = SerialPort()<br>
-myPort.sendBytes(someByteArray)<br>
+myPort.sendBytes(someListOfBytes)<br>
 
 
 That's it.
