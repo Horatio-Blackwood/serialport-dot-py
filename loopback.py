@@ -1,7 +1,6 @@
 # Adam Anderson
 # Depends on:  Python 3.3
 # Created:  March 25, 2013
-# Updated:  March 25, 2013
 
 # --------------------------------------------------------------------------
 # Whats a loopback handler?
